@@ -1,7 +1,17 @@
 
 /* Your CSS Code here. */
+
+*{
+	background:black;
+	color: white;
+	font-family: Droid Serif,Georgia,serif;
+}
 .container{
 	border-sizing : border-box;
+}
+.fa-linkedin{
+	color:cornflowerblue;
+	margin-left:10px;
 }
 
 .name{
@@ -9,21 +19,72 @@
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 	align-items: flex-start;
-	background:lightblue;
 	padding: 20px;
 }
-.details  span{
-	color:floralwhite;
-	font-family: cursive;
+h2{
+	color: indianred;
 }
+.details {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.details > p{
+	margin: 0 10px;
+}
+
 .name img{
 	border: 1px solid black;
 	border-radius: 50%;
 	margin-right: 20px;
 	background: black;
-	width:100px;
-	height:100px;
+	width:50px;
+	height:50px;
 }
+.social-links{
+	padding: 5px;
+}
+#skills{
+	padding: 5px;
+}
+ h2{
+	animation-name: hoverAnime;
+	animation-duration: 4s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+}
+#projects{
+	padding: 5px;
+}
+
 .social-links a{
 	text-decoration: none;
+	margin-left: 5px;
+}
+@keyframes hoverAnime{
+	0%{
+		color:#FF0000;
+	}
+	14%{
+		color: #FF7F00;
+	}
+	28%{
+		color:	#FFFF00;
+	}
+	42%{
+		color:	#00FF00;
+	}
+	56%{
+		color:	#0000FF;
+	}
+	70%{
+		color: #4B0082;
+	}
+	84%{
+		color: 	#9400D3;
+	}
+	100%{
+		color:white;
+	}
 }
