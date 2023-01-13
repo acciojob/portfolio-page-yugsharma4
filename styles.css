@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.container{
+	border-sizing : border-box;
+}
+
+.name{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: flex-start;
+	background:lightblue;
+	padding: 20px;
+}
+.details  span{
+	color:floralwhite;
+	font-family: cursive;
+}
+.name img{
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-right: 20px;
+	background: black;
+	width:100px;
+	height:100px;
+}
+.social-links a{
+	text-decoration: none;
+}
